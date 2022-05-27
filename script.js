@@ -85,3 +85,8 @@ function clea()
     //     r.removeChild(r.firstChild);
     // }
 }
+function zero()
+{   
+   
+    document.getElementById("answer").innerHTML="0";
+}
