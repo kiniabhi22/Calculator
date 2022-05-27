@@ -63,3 +63,47 @@ margin: 5px;
 {
     background-color: rgb(245, 176, 176);
 }
+@media screen and (max-width:750px) 
+{
+    .answer
+    {
+        height: 30px;
+        width: 30vw;
+        margin-left: 20vw;
+    }
+    
+}
+@media screen and (max-width:480px) 
+{
+    .buttonmain button
+    {
+        width: 50px;
+    }
+    .buttonmain
+    {
+        margin-top: 15px;
+    }
+    .parent
+    {
+        height: 330px;
+        
+    }
+}
+@media screen and (max-width:350px) 
+{
+    .buttonmain button
+    {
+        margin-left: 0vw;
+    }
+}
+@media screen and (max-width:280px) 
+{
+    .parent
+    {
+        width: 200px;
+    }
+    .answer
+    {
+        margin-left: 25vw;
+    }
+}
