@@ -11,7 +11,7 @@ function typo(p)
     }
     else if(p==10)
     {
-        p+=document.getElementById("answer").innerHTML="00";
+        p+=document.getElementById("answer").innerHTML+="00";
         document.getElementById("answer").style.textAlign="center";
     }
    else if(p==11)
