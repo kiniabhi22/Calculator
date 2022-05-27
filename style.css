@@ -1,0 +1,65 @@
+body{
+    background-image:linear-gradient(rgb(55, 5, 78),rgb(38, 8, 43));
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: rgb(38, 8, 43);
+}
+h1
+{
+    color:aliceblue;
+    text-align: center;
+    margin-top: 50px;
+}
+.parent
+{
+    
+    height: 70vh;
+    width: 65vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 0vh;
+    background-color: rgb(78, 59, 59);
+    
+
+}
+.grand
+{
+    display: flex;
+    justify-content: center;
+}
+.buttonmain
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    margin-top: 7vh;
+    
+}
+.buttonmain button
+{
+height: 8vh;
+margin: 5px;
+
+}
+.answer
+{
+    display: flex;
+   
+    height: 10vh;
+    width: 20vw;
+    margin-left: 23vw;
+    background-color: rgb(19, 17, 17);
+    margin-top: 10px;
+    color: aliceblue;
+   
+}
+#colo1,#colo2,#colo3,#colo4,#colo5,#colo6,#colo7,#colo8,#colo9,#colo10,#colo11,#colo12
+{
+    background-color: rgb(231, 205, 205);
+}
+#colo13,#colo14,#colo15,#colo16,#colo17,#colo18,#colo19,#colo20
+{
+    background-color: rgb(245, 176, 176);
+}
